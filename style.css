@@ -7,6 +7,7 @@ body {
   font-size: 30px;
   line-height: 20px;
   font-weight: 300;
+ 
 }
 
 h1, h2 {
@@ -14,7 +15,6 @@ h1, h2 {
 font-family: 'Bungee Spice', cursive;
 font-size: 20px;
 line-height: 10px;
-
 }
 
 h3 {
@@ -39,6 +39,7 @@ a {
   font-size: 20px;
   line-height: 10px;
   text-decoration: none;
+  transition: 500ms;
 
 }
 a:hover {
@@ -58,11 +59,8 @@ a:hover {
   margin: 0 auto;
   width: 799px;
 
-
 }
-.list-inline {
 
-}
 li {
   display: inline-block;
   font-size: 40px;
@@ -72,7 +70,7 @@ li {
 }
 
 .card {
-  color:brown;
+  color:rgb(134, 42, 6);
   background:rgb(225, 176, 176);
   border: 1px solid red;
   border-radius: 500px;
@@ -89,8 +87,7 @@ li {
   border-radius: 50%;
   /* size: 20px; */
   width: 200px;
-
-
+  background-size:cover;
 }
 
 @media (max-width: 960px) {
@@ -112,3 +109,4 @@ li {
     width: 300px;
   }
 }
+
